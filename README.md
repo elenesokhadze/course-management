@@ -1,6 +1,8 @@
 ### **Project Overview** ###
 
-    This app is created in Next JS and without responsiveness. It's using Tailwind CSS.
+    This app is built in Next JS without responsiveness, focusing on simplicity and functionality. 
+    
+    It utilizes Tailwind CSS for styling.
     
     You can create, edit and delete courses, as well as students. 
 
