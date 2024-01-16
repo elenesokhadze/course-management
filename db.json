@@ -1,0 +1,103 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Elene Sokhadze",
+      "email": "elenesoxadze@gmail.com",
+      "phone": "078224224089",
+      "personal_number": "2343244"
+    },
+    {
+      "id": 2,
+      "name": "Elene Sokhadze",
+      "email": "elenesoxadze@gmail.com",
+      "phone": "078224224089",
+      "personal_number": "56tr"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "name": "Elena Rodriguez",
+      "email": "elena.rodriguez@example.com",
+      "phone": "5550200"
+    },
+    {
+      "id": 2,
+      "name": "James Wilson",
+      "email": "james.wilson@example.com",
+      "phone": "5550201"
+    }
+  ],
+  "courses": [
+    {
+      "id": 4,
+      "course_name": "Introduction to Biology",
+      "course_difficulty": "Beginner",
+      "teacher_id": "2",
+      "start_date": "2023-09-01",
+      "end_date": "2023-12-15"
+    },
+    {
+      "id": 8,
+      "course_name": "Fundamentals of Mathematics",
+      "course_difficulty": "Intermediate",
+      "teacher_id": "24",
+      "start_date": "2023-09-01",
+      "end_date": "2023-12-15"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "SuperAdmin@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "payment": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "course_id": 1,
+      "Name": "Aria Smith",
+      "Payment Schedule": "First",
+      "Bill Number": "3243354656",
+      "Amount Paid": "1000",
+      "Balance amount": "1000",
+      "Date": "2020-01-01"
+    },
+    {
+      "id": 2,
+      "student_id": 2,
+      "course_id": 2,
+      "Name": "Liam Johnson",
+      "Payment Schedule": "First",
+      "Bill Number": "3243354656",
+      "Amount Paid": "1000",
+      "Balance amount": "1000",
+      "Date": "2020-01-01"
+    },
+    {
+      "id": 3,
+      "student_id": 3,
+      "course_id": 3,
+      "Name": "Noah Williams",
+      "Payment Schedule": "First",
+      "Bill Number": "3243354656",
+      "Amount Paid": "1000",
+      "Balance amount": "1000",
+      "Date": "2020-01-01"
+    },
+    {
+      "id": 4,
+      "student_id": 4,
+      "course_id": 4,
+      "Name": "Noah Williams",
+      "Payment Schedule": "First",
+      "Bill Number": "3243354656",
+      "Amount Paid": "1000",
+      "Balance amount": "1000",
+      "Date": "2020-01-01"
+    }
+  ]
+}
