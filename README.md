@@ -1,3 +1,5 @@
+See Live Project https://coursemanagement.netlify.app
+
 ### **Project Overview** ###
 
     This app is built in Next JS without responsiveness, focusing on simplicity and functionality. 
