@@ -3,7 +3,7 @@ import axios from "axios";
 export async function GET(request: Request, { params }: any) {
   try {
     const id = params.id;
-    const apiPath = "http://localhost:3001/students/" + id;
+    const apiPath = "https://course-management.glitch.me/students/" + id;
     const res = await axios.get(apiPath);
     return new Response(JSON.stringify(res?.data), {
       headers: { "content-type": "application/json" },

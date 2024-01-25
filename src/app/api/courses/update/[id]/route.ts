@@ -10,7 +10,7 @@ export async function PUT(request: Request, { params }: any) {
         headers: { "content-type": "application/json" },
       });
     }
-    const update = "http://localhost:3001/courses/" + id;
+    const update = "https://course-management.glitch.me/courses/" + id;
 
     await axios.put(update, newcourse);
     const res = await axios.get(update);

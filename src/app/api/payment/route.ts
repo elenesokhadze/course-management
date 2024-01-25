@@ -2,7 +2,7 @@ import axios from "axios";
 
 export async function GET() {
   try {
-    const apiPath = "http://localhost:3001/payment";
+    const apiPath = "https://course-management.glitch.me/payment";
     const res = await axios.get(apiPath);
     return new Response(JSON.stringify(res?.data), {
       headers: { "content-type": "application/json" },

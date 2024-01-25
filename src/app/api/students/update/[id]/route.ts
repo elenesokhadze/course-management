@@ -4,7 +4,7 @@ export async function PUT(request: Request, { params }: any) {
   try {
     const newStudent = await request.json();
     const id = params.id;
-    const update = "http://localhost:3001/students/" + id;
+    const update = "https://course-management.glitch.me/students/" + id;
 
     await axios.put(update, newStudent);
     const res = await axios.get(update);

@@ -3,7 +3,7 @@ import axios from 'axios';
 export async function DELETE(request: Request, { params }: any) {
   try {
     const id = params.id;
-    const DELETE = 'http://localhost:3001/courses/' + id;
+    const DELETE = 'https://course-management.glitch.me/courses/' + id;
 
     await axios.delete(DELETE);
     return new Response(JSON.stringify({ message: 'Course  deleted' }), {

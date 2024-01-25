@@ -2,7 +2,7 @@ import axios from "axios";
 
 export async function POST(request: Request, response: Response) {
   try {
-    const create = "http://localhost:3001/courses";
+    const create = "https://course-management.glitch.me/courses";
     const newCourse = await request.json();
 
     await axios.post(create, newCourse);

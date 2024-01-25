@@ -2,8 +2,8 @@ import axios from 'axios';
 
 export async function POST(request: Request, response: Response) {
   try {
-    const create = 'http://localhost:3001/students';
-    const get = 'http://localhost:3001/students';
+    const create = 'https://course-management.glitch.me/students';
+    const get = 'https://course-management.glitch.me/students';
     const newStudent = await request.json();
 
     const students = await axios.get(get);

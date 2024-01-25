@@ -68,7 +68,7 @@ const CourseModal: FC<ModalProps> = ({ isOpen, onClose, course, fetchAndSet }) =
     return (
         <div className="fixed inset-0 overflow-y-auto z-50 flex items-center justify-center">
             <div className="fixed inset-0 bg-gradient-to-r from-[#FEAF00] via-[#F8D442] to-[#FEAF00]"></div>
-            <div className="bg-white px-8 py-12 rounded-3xl z-10 relative" ref={modalRef}>
+            <div className="bg-white px-8 py-8 rounded-3xl z-10 relative h-[95%]" ref={modalRef}>
                 <h2 className="text-2xl font-semibold text-center uppercase mb-8">{course ? "Edit Course" : "Add Course"}</h2>
                 <form onSubmit={handleSubmit}>
                     <LabeledInput label={'Course Name'} type={'text'} name={'course_name'} value={formData?.course_name || ''} onChange={handleInputChange} placeholder={"Enter course name"} />
@@ -76,7 +76,7 @@ const CourseModal: FC<ModalProps> = ({ isOpen, onClose, course, fetchAndSet }) =
                     <LabeledInput label={'Teacher ID'} type={'text'} name={'teacher_id'} value={formData?.teacher_id || ''} onChange={handleInputChange} placeholder={"Enter teacher ID"} />
                     <LabeledInput label={'Start Date'} type={'date'} name={'start_date'} value={formData?.start_date || ''} onChange={handleInputChange} placeholder={"Enter start date"} />
                     <LabeledInput label={'End Date'} type={'date'} name={'end_date'} value={formData?.end_date || ''} onChange={handleInputChange} placeholder={"Enter end date"} />
-                    <div className="mt-16">
+                    <div className="mt-2">
                         <button
                             type="submit"
                             className="bg-secondary text-white px-4 py-2.5 rounded w-full"
